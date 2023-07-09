@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

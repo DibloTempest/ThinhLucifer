@@ -1,0 +1,68 @@
+{
+    "editor.fontFamily": "Fira Code Regular",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Pink Cat Boo",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "code-runner.runInTerminal": true,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "tabnine.experimentalAutoImports": true,
+     "editor.suggest.preview": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope":"keyword",
+                "settings": {
+                    "foreground": "#F999CB",
+                    "fontStyle": "bold"
+                }                
+            },
+            {
+                "scope":"string",
+                "settings": {
+                    "foreground": "#8FE5F6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope":"variable.other.local.cpp",
+                "settings": {
+                    "foreground": "#F62F63",
+                    "fontStyle": "bold "
+                }
+            },
+            {
+                "scope":"entity.name.function.cpp",
+                "settings": {
+                    "foreground": "#AB00FF",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope":["storage.type","support.type"],
+                "settings": {
+                    "foreground": "#DCBFF2",
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope":["entity.name.function.preprocessor.cpp","entity.name.function.member.cpp"],
+                "settings": {
+                    "foreground": "#F98E42",
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope":"variable.parameter.cpp",
+                "settings": {
+                    "foreground": "#59E881",
+                    "fontStyle": "bold"
+                }
+            }
+        
+        ]
+    }
+}
