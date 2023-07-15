@@ -1,12 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long sum, n, a, b;
+long long a, b, k;
 int main()
 {
-    cin >> n >> a >> b;
-    for (long long i = a; i <= b; i++)
-    {
-        sum += n - i;
-    }
-    cout << sum;
+    cin >> a >> b >> k;
+    if (k - b > a)
+        a = k - b;
+    if (k - a < b)
+        b = k - a;
+    if (b - a + 1 <= 0)
+        cout << 0;
+    else
+        cout << (b - a + 1) / 2;
 }
