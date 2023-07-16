@@ -12,3 +12,7 @@ ll amb(long long A, ll N)
         tmp = (tmp * A) % mod;
     return tmp;
 }
+main()
+{
+    ll q, p, fact
+}
