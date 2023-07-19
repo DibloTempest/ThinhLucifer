@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "valarray": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "iostream": "cpp",
+        "complex": "cpp"
     }
 }

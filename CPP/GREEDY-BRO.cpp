@@ -1,28 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long a[100005], n, k, dem = 0;
+long long a[1000005], n, dem = 0, g = 0, gtln = 0, b[1000005];
 int main()
 {
-    cin >> n >> k;
+    cin >> n;
     for (int i = 1; i <= n; i++)
     {
         cin >> a[i];
-    }
-    if (k == 1)
-    {
-        cout << "0";
-        return 0;
+        dem = dem + a[i];
     }
     sort(a + 1, a + 1 + n);
+    gtln = a[n];
     for (int i = n; i >= 1; i--)
     {
-        k = k - a[i];
-        if (k <= 0)
+        g++;
+        if (gtln > (dem - gtln))
         {
-            cout << n - i + 1;
+            cout << g;
             return 0;
         }
-        k++;
+        gtln = gtln + a[i - 1];
     }
-    cout << "-1";
 }
