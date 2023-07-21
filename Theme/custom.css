@@ -1,0 +1,50 @@
+.mtk15{
+     color: transparent;
+    background: linear-gradient(90deg, rgba(229, 72, 202, 1) 0%, rgba(255, 80, 161, 1) 25%, rgba(255, 117, 122, 1) 75%, rgb(255, 195, 247) 100%);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+.mtk14{
+    color: transparent;
+        background: linear-gradient(90deg, rgb(0, 140, 255) 0%, rgb(20, 222, 237) 25%, rgba(86, 242, 212, 1) 50%, rgba(139, 248, 184, 1) 75%, rgb(195, 241, 255) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.mtk5 {
+    color: transparent;
+    background: linear-gradient(90deg, rgba(158, 3, 132, 1) 0%, rgba(193, 53, 163, 1) 25%, rgba(235, 82, 198, 1) 75%, rgb(250, 190, 255) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.mtk1 {
+    color: transparent;
+    background: linear-gradient(90deg, rgba(37, 240, 64, 1) 0%, rgba(0, 221, 130, 1) 25%, rgb(70, 216, 165) 75%, rgb(255, 255, 255) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.mtk16{
+        color: transparent;
+    background: linear-gradient(90deg, rgba(249, 7, 22, 1) 0%, rgba(255, 146, 3, 1) 50%, rgba(255, 255, 255, 1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+.mtk18
+{
+    
+    color: transparent;
+    background: linear-gradient(90deg, rgba(74, 85, 162, 1) 0%, rgba(74, 85, 162, 1) 25%, rgba(160, 191, 224, 1) 75%, rgba(197, 223, 248, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+        
+}
