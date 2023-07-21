@@ -4,6 +4,7 @@ long long n;
 long double a[11], x, dem;
 int main()
 {
+
     freopen("ARRSORT.inp", "r", stdin);
     freopen("ARRSORT.out", "w", stdout);
     cin >> n;
