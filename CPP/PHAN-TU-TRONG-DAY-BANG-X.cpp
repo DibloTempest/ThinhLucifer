@@ -19,17 +19,13 @@ bool tknp(long long x)
 int main()
 {
     cin >> n;
+    cin >> x;
     for (int i = 1; i <= n; i++)
         cin >> a[i];
     sort(a + 1, a + n + 1);
     while (t--)
-    {
-        cin >> x;
         if (tknp(x))
-            cout << "Y";
-
+            cout << "Y" << '\n';
         else
-            cout << "N";
-        cout << endl;
-    }
+            cout << "N" << '\n';
 }

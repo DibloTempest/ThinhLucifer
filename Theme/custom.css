@@ -1,50 +1,103 @@
-.mtk15{
-     color: transparent;
-    background: linear-gradient(90deg, rgba(229, 72, 202, 1) 0%, rgba(255, 80, 161, 1) 25%, rgba(255, 117, 122, 1) 75%, rgb(255, 195, 247) 100%);
-     -webkit-background-clip: text;
-     background-clip: text;
-     -webkit-text-fill-color: transparent;
- }
-.mtk14{
+.mtk15 {
     color: transparent;
-        background: linear-gradient(90deg, rgb(0, 140, 255) 0%, rgb(20, 222, 237) 25%, rgba(86, 242, 212, 1) 50%, rgba(139, 248, 184, 1) 75%, rgb(195, 241, 255) 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-
-}
-.mtk5 {
-    color: transparent;
-    background: linear-gradient(90deg, rgba(158, 3, 132, 1) 0%, rgba(193, 53, 163, 1) 25%, rgba(235, 82, 198, 1) 75%, rgb(250, 190, 255) 100%);
+    background: linear-gradient(90deg, rgba(230, 9, 101, 1) 0%, rgba(249, 72, 146, 1) 25%, rgba(255, 161, 201, 1) 75%, rgba(251, 229, 229, 1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
+
 .mtk1 {
     color: transparent;
-    background: linear-gradient(90deg, rgba(37, 240, 64, 1) 0%, rgba(0, 221, 130, 1) 25%, rgb(70, 216, 165) 75%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(90deg, rgba(88, 0, 255, 1) 0%, rgba(0, 150, 255, 1) 25%, rgba(0, 197, 255, 1) 75%, rgba(114, 255, 255, 1) 100%);
+
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
-.mtk16{
-        color: transparent;
-    background: linear-gradient(90deg, rgba(249, 7, 22, 1) 0%, rgba(255, 146, 3, 1) 50%, rgba(255, 255, 255, 1) 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
 
-    }
-.mtk18
-{
-    
+.mtk5 {
     color: transparent;
-    background: linear-gradient(90deg, rgba(74, 85, 162, 1) 0%, rgba(74, 85, 162, 1) 25%, rgba(160, 191, 224, 1) 75%, rgba(197, 223, 248, 1) 100%);
+    background: linear-gradient(90deg, rgba(70, 12, 104, 1) 0%, rgba(127, 22, 127, 1) 50%, rgba(203, 28, 141, 1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-        
+
+}
+
+.mtk14 {
+    color: transparent;
+    background: linear-gradient(90deg, rgba(0, 173, 124, 1) 0%, rgba(82, 214, 129, 1) 25%, rgba(181, 255, 125, 1) 75%, rgba(255, 248, 181, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.mtk16 {
+    color: transparent;
+    background: linear-gradient(90deg, rgba(156, 25, 27, 1) 0%, rgba(172, 28, 30, 1) 10%, rgba(189, 31, 33, 1) 20%, rgba(208, 34, 36, 1) 30%, rgba(221, 44, 47, 1) 40%, rgba(227, 80, 83, 1) 50%, rgba(230, 96, 99, 1) 60%, rgba(236, 131, 133, 1) 70%, rgba(241, 167, 169, 1) 80%, rgba(246, 202, 204, 1) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.mtk18 {
+
+    color: transparent;
+    background: linear-gradient(90deg, rgba(231, 236, 239, 1) 0%, rgba(39, 76, 119, 1) 20%, rgba(96, 150, 186, 1) 40%, rgba(163, 206, 241, 1) 60%, rgba(139, 140, 137, 1) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.mtk4 {
+    color: transparent;
+    background: linear-gradient(90deg, rgba(156, 79, 150, 1) 0%, rgba(255, 99, 85, 1) 25%, rgba(251, 169, 73, 1) 40%, rgba(250, 228, 66, 1) 60%, rgba(139, 212, 72, 1) 75%, rgba(42, 168, 242, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
+    background-size: 400% 400%;
+    background-image: linear-gradient(-45deg,
+            #ff0000,
+            #ff8700,
+            #ffd300,
+            #deff0a,
+            #a1ff0a,
+            #0aff99,
+            #0aefff,
+            #147df5,
+            #580aff,
+            #be0aff);
+    animation: gradient 5s ease alternate infinite;
+    height: 3px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.cursors-layer .cursor {
+    background-image: linear-gradient(245deg,
+            #fcb564,
+            #ff65f2,
+            #d66efd) !important;
 }

@@ -1,26 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main()
-{
+long long a[1000005], n, m, x;
 
-	string s;
-	getline(cin, s);
-	for (int i = 0; i <= s.length() - 2; i++)
-		for (int j = i + 1; j <= s.length() - 1; j++)
-			if (s[i] >= s[j])
-			{
-				int temp = s[i];
-				s[i] = s[j];
-				s[j] = temp;
-			}
-	int dem = 1;
-	for (int i = 0; i <= s.length() - 1; i++)
-		if (s[i] == s[i + 1])
-			dem++;
+//====================================================
+
+long long tknp(long long x)
+{
+	long long d = 1, c = n, res = 0;
+	while (d <= c)
+	{
+		long long g = (d + c) / 2;
+		if (a[g] >= x)
+			c = g - 1;
 		else
 		{
-			cout << s[i] << " " << dem << endl;
-			dem = 1;
+			res = g;
+			d = g + 1;
 		}
-	return 0;
+	}
+	return res;
+}
+
+//====================================================
+
+int main()
+{
+	cin >> n;
+	for (int i = 1; i <= n; i++)
+		cin >> a[i];
+	sort(a + 1, a + n + 1);
+	cin >> m;
+	while (m--)
+	{
+		cin >> x;
+		cout << tknp(x) << "\n";
+	}
 }

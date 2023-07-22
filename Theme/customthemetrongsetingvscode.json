@@ -1,76 +1,88 @@
 {
     "editor.fontFamily": "Fira Code Regular",
+    "terminal.integrated.fontFamily": "'MesloLGMDZ Nerd Font Mono Regular'",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Pink Cat Boo",
+    "workbench.colorTheme": "Evondev Dracula Normal Contrast",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "code-runner.runInTerminal": true,
     "editor.lineHeight": 0,
-    "editor.fontSize": 16,
-    "tabnine.experimentalAutoImports": true,
-     "editor.suggest.preview": true,
+    "editor.fontSize": 20,
+    "tabnine.experimentalAutoImports": false,
+    "editor.suggest.preview": true,
     "editor.cursorSmoothCaretAnimation": "on",
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.openRepositoryInParentFolders": "never",
+    "update.mode": "start",
+    "codesnap.backgroundColor": "#F999CB",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/Administrator/Documents/custom.css"
+    ],
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "scope":"keyword",
                 "settings": {
-                    "foreground": "#F999CB",
                     "fontStyle": "bold"
                 }                
             },
             {
                 "scope":"string",
                 "settings": {
-                    "foreground": "#8FE5F6",
                     "fontStyle": "bold"
                 }
             },
             {
                 "scope":"variable.other.local.cpp",
                 "settings": {
-                    "foreground": "#F62F63",
                     "fontStyle": "bold "
                 }
             },
             {
                 "scope":"entity.name.function.cpp",
                 "settings": {
-                    "foreground": "#AB00FF",
                     "fontStyle": "bold"
                 }
             },
             {
                 "scope":["storage.type","support.type"],
                 "settings": {
-                    "foreground": "#DCBFF2",
                     "fontStyle": "bold italic"
                 }
             },
             {
                 "scope":["entity.name.function.preprocessor.cpp","entity.name.function.member.cpp"],
                 "settings": {
-                    "foreground": "#F98E42",
                     "fontStyle": "bold italic"
                 }
             },
             {
                 "scope":"variable.parameter.cpp",
                 "settings": {
-                    "foreground": "#59E881",
                     "fontStyle": "bold"
                 }
             },
             {
-                "scope":"variable.other.global.cpp",
+                "scope":"source.cpp",
                 "settings": {
-                    "foreground": "#EBA4AC",
                     "fontStyle": "bold"
                 }
             }
-        
+            
         ]
     },
-    "git.openRepositoryInParentFolders": "never"
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorWidth": 1,
+    "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.175)",
+    "rgba(181, 23, 158,0.175)",
+    "rgba(114, 9, 183,0.175)",
+    "rgba(86, 11, 173,0.175)",
+    "rgba(72, 12, 168,0.175)",
+    "rgba(58, 12, 163,0.175)",
+    "rgba(63, 55, 201,0.175)",
+    "rgba(67, 97, 238,0.175)",
+    "rgba(72, 149, 239,0.175)",
+    "rgba(76, 201, 240,0.175)"
+]
 }
