@@ -3,6 +3,7 @@ using namespace std;
 long long a, b, d = 0;
 main()
 {
+
     cin >> a >> b;
     for (int i = a; i <= b; i++)
     {

@@ -26,7 +26,8 @@ int main()
                 sum = 0;
             }
         }
-        cout << ans << endl;
+        cout << ans;
+        break;
     }
     return 0;
 }

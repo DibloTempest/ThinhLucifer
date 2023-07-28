@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long a[100005], n;
+long long a[1000005], n, t, x;
 bool tknp(long long x)
 {
     int d = 1, c = n;
@@ -22,4 +22,14 @@ int main()
     for (int i = 1; i <= n; i++)
         cin >> a[i];
     sort(a + 1, a + n + 1);
+    while (t--)
+    {
+        cin >> x;
+        if (tknp(x))
+            cout << "Y";
+
+        else
+            cout << "N";
+        cout << endl;
+    }
 }
