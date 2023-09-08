@@ -1,31 +1,37 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long dem_uoc(long long n)
+long long t = 1e12, i;
+bool snt(int n)
 {
-    long long s = sqrt(n);
-    long long dem = 0;
-    for (long long i = 1; i < sqrt(n); i++)
+    if (n < 2)
+        return 0;
+    if (n == 2)
+        return 1;
+    for (int i = 2; i <= sqrt(n); ++i)
+    {
         if (n % i == 0)
-            dem++;
-    dem *= 2;
-    if (s * s == n)
-        return dem + 1;
-    else
-        return dem;
+            return 0;
+    }
+    return 1;
 }
-long long n, a[100004];
+string scp(long long a)
+{
+    if (a < 4)
+        return "NO";
+    long long b = sqrt(a);
+    if (b * b == a && snt(b))
+        return "YES";
+    return "NO";
+}
+long long s[100005];
 int main()
 {
     freopen("TNUM.inp", "r", stdin);
     freopen("TNUM.out", "w", stdout);
-    cin >> n;
-    for (int i = 1; i <= n; i++)
-        cin >> a[i];
-    for (int i = 1; i <= n; i++)
-        if (dem_uoc(a[i]) == 3)
-            cout << "YES"
-                 << "\n";
-        else
-            cout << "NO"
-                 << "\n";
+    long long a;
+    cin >> a;
+    for (i = 1; i <= a; i++)
+        cin >> s[i];
+    for (i = 1; i <= a; i++)
+        cout << scp(s[i]) << "\n";
 }

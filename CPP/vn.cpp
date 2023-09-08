@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    freopen("Vn.inp", "r", stdin);
-    freopen("Vn.out", "u", stdout);
+    freopen("vn.inp", "r", stdin);
+    freopen("vn.out", "w", stdout);
     long long n, m, UCLN, x, y;
     cin >> n >> m;
     UCLN = __gcd(n, m);
