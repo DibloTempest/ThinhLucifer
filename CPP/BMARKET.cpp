@@ -8,7 +8,7 @@ main()
     cin >> y >> k >> n;
     if (n == y)
         cout << -1;
-    for (int i = 1; i <= n - y; i++)
+    for (int i = 1; i <= n - y; i+=k)
     {
         if ((i + y) % k == 0)
             cout << i << " ";
