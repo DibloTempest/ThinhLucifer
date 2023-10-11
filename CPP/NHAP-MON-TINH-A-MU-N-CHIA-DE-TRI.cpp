@@ -6,7 +6,7 @@ long long pw(long long a, long long n)
     if(n == 0)
         return 1;
     long long  tp = pw(a, n / 2);
-    tmp = (tp * tp) % mod;
+    tp = (tp * tp) % mod;
     if(n % 2 == 1)
         tp = tp * a % mod;
     return tp;
