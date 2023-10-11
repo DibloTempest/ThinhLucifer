@@ -1,10 +1,23 @@
 #include <bits/stdc++.h>
-#define nmax 1000000007
 using namespace std;
-long long a, n;
-main()
+long long a, n,  mod = 1e9 + 7;
+long long pw(long long a, long long n)
 {
+    if(n == 0)
+        return 1;
+    long long  tp = pw(a, n / 2);
+    tmp = (tp * tp) % mod;
+    if(n % 2 == 1)
+        tp = tp * a % mod;
+    return tp;
+}
+
+int main()
+
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     cin >> a >> n;
-    long long kq = pow(a, n);
-    cout << kq % nmax;
+    cout << pw(a, n) % mod;
 }
