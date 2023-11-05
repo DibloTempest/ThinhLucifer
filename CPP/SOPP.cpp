@@ -1,31 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long sum(long long n)
+long long uoc[10000005];
+void sanguoc()
 {
-    long long total = 1;
-
-    for (long long i = 2; i * i <= n; ++i)
+    for(int i=1;i<=1000000;i++)
     {
-        if (n % i == 0)
-        {
-            if (i * i == n)
-                total += i;
-            else if (i * i != n)
-                total += i + n / i;
-        }
+        for(int j=i;j<=1000000;j+=i)
+        uoc[j]+=i;
     }
-
-    return total;
 }
-long long perfectNumber(long long n)
-{
-    return sum(n) > n;
-}
+long long n,a[1000005],dem=0;
 main()
 {
-    freopen("SOPP.inp", "r", stdin);
-    freopen("SOPP.out", "w", stdout);
-    long long n;
+    freopen("PP.inp", "r", stdin);
+    freopen("PP.out", "w", stdout);
+    sanguoc();
     cin >> n;
-    cout << perfectNumber(n);
+    if(2*n<uoc[n]) cout<<"YES";
+    else cout<<"NO";
 }
