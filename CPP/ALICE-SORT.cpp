@@ -11,7 +11,7 @@ int main()
     {
         if (a[i] > a[i - 1] && i > 1 && i % 2 != 0)
             swap(a[i], a[i - 1]);
-        if (a[i] < a[i - 1] && i % 2 == s)
+        if (a[i] < a[i - 1] && i % 2 == 0)
             swap(a[i], a[i - 1]);
     }
     cout << "YES"
